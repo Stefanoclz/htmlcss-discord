@@ -111,7 +111,7 @@ button {
     margin-bottom: 20px;
 }
 
-.luogo {
+.luogo, .fandom {
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -120,23 +120,24 @@ button {
     margin-top: 0px;
 }
 
-.luogo-description {
+.luogo-description, .fandom-description {
     float: right;
     width: 35%;
 }
 
-.luogo-description h1 {
+article h1 {
     font-size: 50px;
     margin-bottom: 30px;
 }
 
-.luogo-description p {
+article p {
     font-size: 30px;
 }
 
 .waveG {
     position: relative;
     bottom: -4px;
+    margin-top: 100px;
 }
 
 .waveG img{
@@ -145,11 +146,12 @@ button {
 
 .waveW {
     position: relative;
-    bottom: -4px;
+    margin-bottom: 100px;
 }
 
 .waveW img{
     opacity: 0.03;
+    transform: rotate(180deg);
 }
 
 .grey {
@@ -159,15 +161,6 @@ button {
 .trovarsi-description {
     float: left;
     width: 35%;
-}
-
-.trovarsi-description h1 {
-    font-size: 50px;
-    margin-bottom: 30px;
-}
-
-.trovarsi-description p {
-    font-size: 30px;
 }
 
 .trovarsi {
