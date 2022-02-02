@@ -73,9 +73,24 @@ button {
     color: white;
 }
 
+.blue {
+    background-color: #8ea1e1;
+    color: white;
+    text-align: center;
+    border: transparent;
+    padding: 10px 15px;
+}
+
 .bottom-header .large::before {
     content: "\2193 ";
     font-weight: 900;
+    padding-right: 10px;
+
+}
+
+.ready .blue::before {
+    content: "\2193 ";
+    padding-right: 10px;
 }
 
 .clearfix::after {
@@ -170,11 +185,19 @@ article p {
     float: right;
 }
 
-.tecnologia, .ready {
+.tecnologia, .ready, .tecno-img {
     text-align: center;
 }
 
-.tecno-img {
-    max-width: 1200px;
-    align-items: center;
+.ready {
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    padding: 50px;
+}
+
+.ready h2 {
+    margin-bottom: 50px;
+    font-size: 40px;
 }
