@@ -237,11 +237,18 @@ footer {
     border-bottom: 1px solid #7289da;
 }
 
-.contact, .prodotto, .compagnia, .risorse, .norme {
-    width: 15%;
+.contact {
+    width: 25%;
     height: auto;
     float: left;
     margin-right: 50px;   
+}
+
+.prodotto, .compagnia, .risorse, .norme {
+    width: 12%;
+    height: auto;
+    float: left;
+    margin-right: 50px;
 }
 
 .ita {
