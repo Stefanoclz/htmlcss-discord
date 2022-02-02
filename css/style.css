@@ -170,6 +170,11 @@ article p {
     float: right;
 }
 
-.debug {
-    border: 1 px solid black;
+.tecnologia, .ready {
+    text-align: center;
+}
+
+.tecno-img {
+    max-width: 1200px;
+    align-items: center;
 }
