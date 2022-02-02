@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    height: 80px;
+    background-color: blue;
+    line-height: 80px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1200px;
+    height: 100%;
+}
+
+.float {
+    float: left;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+.navigator {
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+
+.navigator li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.enter {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    border-radius: 35px;
+    font-size: 20px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+.large {
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+.dark {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+
+.bottom-header .large::before {
+    content: "\2193 ";
+    font-weight: 900;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.bottom-header {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 65%;
+    position: relative;
+}
+
+.bottom-header div {
+    text-align: center;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+}
+
+.bottom-header div h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.bottom-header div p {
+    margin-bottom: 20px;
+}
+
+.luogo {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
