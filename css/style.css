@@ -201,3 +201,37 @@ article p {
     margin-bottom: 50px;
     font-size: 40px;
 }
+
+footer {
+    background-color: #23272a;
+    color: white;
+}
+
+.top-footer {
+    width: 100%;
+    height: 500px;
+}
+
+.contact, .prodotto {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+}
+
+.ita {
+    margin-top: 10px;
+}
+
+.ita img {
+    width: 25px;
+    vertical-align: middle;
+}
+
+.ita span {
+    font-size: 20px;
+}
+
+.social img {
+    width: 20px;
+    margin: 10px 20px 0px 0px;
+}
