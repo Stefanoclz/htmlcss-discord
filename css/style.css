@@ -134,6 +134,49 @@ button {
     font-size: 30px;
 }
 
-.wave img{
+.waveG {
+    position: relative;
+    bottom: -4px;
+}
+
+.waveG img{
     opacity: 0.03;
+}
+
+.waveW {
+    position: relative;
+    bottom: -4px;
+}
+
+.waveW img{
+    opacity: 0.03;
+}
+
+.grey {
+    background-color: #f8f8f8;
+}
+
+.trovarsi-description {
+    float: left;
+    width: 35%;
+}
+
+.trovarsi-description h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.trovarsi-description p {
+    font-size: 30px;
+}
+
+.trovarsi {
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+}
+
+.debug {
+    border: 1 px solid black;
 }
