@@ -264,9 +264,15 @@ footer {
     font-size: 20px;
 }
 
+span img {
+    height: 20px;
+    filter: invert(1);
+}
+
 .social img {
     width: 20px;
     margin: 10px 20px 0px 0px;
+    filter: invert(1);
 }
 
 ul {
